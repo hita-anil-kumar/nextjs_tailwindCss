@@ -56,23 +56,18 @@ function NavLink({to, children}) {
 
 function MobileNav({open, setOpen}) {
     return (
-        <div className={`absolute top-0 left-0 h-screen w-screen bg-white transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
-            <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20"> {/*logo container*/}
-            <div className="ml-40">
-            <Image
-            src={whiteLogo}
-            alt="Main logo"
-            width={195}
-            height={23}
-            />
-       </div>
+        <div className={`absolute top-0 left-0 h-max w-screen bg-headerColor transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
+            <div className="flex items-center justify-center filter drop-shadow-md bg-gradient-to-r from-navLine1 to-navLine2 w-full h-96"> {/*logo container*/}
             </div>
-            <div className="flex flex-col ml-4">
-                <p className="text-xl font-medium my-4" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    About
+            <div className="flex flex-col ml-4 items-center ">  
+            <p className=" mt-[20px] font-Manrope not-italic font-extrabold text-xl text-white leading-5" href="/Lorem" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    Lorem
                 </p>
-                <p className="text-xl font-normal my-4" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    Contact
+                <p className="mt-[20px] font-Manrope not-italic font-extrabold text-xl text-white leading-5" href="/Lorem" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    Lorem
+                </p>
+                <p className="mt-[20px] font-Manrope not-italic font-extrabold text-xl text-white leading-5" href="/Lorem" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    Lorem
                 </p>
             </div>  
         </div>
