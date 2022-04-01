@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link';
 import pictureArray from "../assets/pictureArray.png";
@@ -12,7 +11,7 @@ import twitter from "../assets/twitter.png";
 import discord from "../assets/discord.png";
 import questionMark from "../assets/questionMark.png";
 import footerLogo from "../assets/footerLogo.png";
-import eye from "../assets/eye.png";
+import Nav from "../components/Nav.js";
 import 'remixicon/fonts/remixicon.css'
 
 
@@ -31,8 +30,8 @@ export default function Home() {
     </div>
     {/* <div className='flex justify-center -mt-1/20 ml-[16px]'>
       <div className="w-1/2 h-1/2"> */}
-    <div className='flex justify-center -mt-1/16 ml-18 '>
-      <div className="w-1/7 h-1/7">
+    <div className='flex justify-center -mt-1/14 ml-3/500 '>
+      <div className="w-1/10 h-1/10">
       <Image
       src={ellipse}
       alt="Ellipse"
@@ -46,7 +45,7 @@ export default function Home() {
     <p className="mt-10 font-Manrope text-16 leading-22 text-center text-white">Sed ut percpiciatis unde omnis iste natus error sit voluptatem</p>
       
     <div className='flex justify-center mt-61 flex-wrap'>
-      <button className="w-184 h-50 bg-woodsmoke bg-opacity-50 rounded-4 m-10 border-2 border-transparent hover:border-redpink">
+      <button className="w-184 h-50 bg-woodsmoke bg-opacity-50 rounded-4 m-10 border-2 border-transparent hover:border-redpink hover:b">
         <div className="flex pl-34">
         <Image
         src={graph}

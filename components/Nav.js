@@ -59,14 +59,14 @@ function MobileNav({open, setOpen}) {
         <div className={`absolute top-0 left-0 h-max w-screen bg-headerColor transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
             <div className="flex items-center justify-center filter drop-shadow-md bg-gradient-to-r from-navLine1 to-navLine2 w-full h-96"> {/*logo container*/}
             </div>
-            <div className="flex flex-col ml-4 items-center ">  
-            <p className=" mt-[20px] font-Manrope not-italic font-extrabold text-xl text-white leading-5" href="/Lorem" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+            <div className="flex flex-col ml-4 h-1/10 items-center ">  
+            <p className=" mt-[10px] font-Manrope not-italic font-normal text-lg text-white leading-5" href="/Lorem" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Lorem
                 </p>
-                <p className="mt-[20px] font-Manrope not-italic font-extrabold text-xl text-white leading-5" href="/Lorem" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <p className="mt-[20px] font-Manrope not-italic font-normal text-lg text-white leading-5" href="/Lorem" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Lorem
                 </p>
-                <p className="mt-[20px] font-Manrope not-italic font-extrabold text-xl text-white leading-5" href="/Lorem" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <p className="mt-[20px] mb-[10px] font-Manrope not-italic font-normal text-lg text-white leading-5" href="/Lorem" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Lorem
                 </p>
             </div>  
