@@ -19,7 +19,6 @@ import 'remixicon/fonts/remixicon.css'
 export default function Home() {
   return (
   <div className="w-full bg-gradient-to-r from-rangoon via-tuna to-rhino">
-   
     <div className="w-full h-6 bg-gradient-to-r from-navLine1 to-navLine2 w-full">
     </div>
     <div className="mt-42 mx-20">
@@ -32,8 +31,8 @@ export default function Home() {
     </div>
     {/* <div className='flex justify-center -mt-1/20 ml-[16px]'>
       <div className="w-1/2 h-1/2"> */}
-    <div className='flex justify-center -mt-1/20 ml-[16px]'>
-      <div className="w-1/10 h-1/10">
+    <div className='flex justify-center -mt-1/16 ml-18 '>
+      <div className="w-1/7 h-1/7">
       <Image
       src={ellipse}
       alt="Ellipse"
@@ -47,7 +46,7 @@ export default function Home() {
     <p className="mt-10 font-Manrope text-16 leading-22 text-center text-white">Sed ut percpiciatis unde omnis iste natus error sit voluptatem</p>
       
     <div className='flex justify-center mt-61 flex-wrap'>
-      <button className="w-184 h-50 bg-woodsmoke bg-opacity-50 rounded-4 m-10">
+      <button className="w-184 h-50 bg-woodsmoke bg-opacity-50 rounded-4 m-10 border-2 border-transparent hover:border-redpink">
         <div className="flex pl-34">
         <Image
         src={graph}
@@ -58,8 +57,8 @@ export default function Home() {
         <p className="ml-6 font-Manrope not-italic font-extrabold text-15 leading-20 text-center text-[#F7F7F7]">Lorem ipsum</p>
         </div>
       </button>
-      <button className="w-184 h-50 bg-woodsmoke rounded-4 m-10">
-        <div className="flex pl-34">
+      <button className="w-184 h-50 bg-woodsmoke rounded-4 m-10 border-2 border-transparent hover:border-redpink">
+        <div className="flex pl-34"> 
         <Image
         src={fourCircles}
         alt="Four circles"
@@ -69,7 +68,7 @@ export default function Home() {
         <p className="ml-6 font-Manrope not-italic font-extrabold text-15 leading-20 text-center text-[#F7F7F7]">Lorem ipsum</p>
         </div>
       </button>
-      <button className="w-184 h-50 bg-woodsmoke bg-opacity-50 rounded-4 m-10">
+      <button className="w-184 h-50 bg-woodsmoke bg-opacity-50 rounded-4 m-10 border-2 border-transparent hover:border-redpink">
         <div className="flex pl-34">
         <Image
         src={house}
@@ -95,7 +94,7 @@ export default function Home() {
                   height={16}
                   />   
                 </div>
-                <p className="font-Manrope ml-9 not-italic font-extrabold text-16 leading-22 text-white ">Lorem ipsum</p>  
+                <p className="font-Manrope ml-9 not-italic font-extrabold text-16 leading-22 text-white hover:text-redpink ">Lorem ipsum</p>  
               </div>
               <svg className="h-20 w-20 mr-15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#FFFFFF" aria-hidden="true">
                 <path fillrule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" cliprule="evenodd" />
@@ -158,7 +157,7 @@ export default function Home() {
                   />
                 </button>
                 <Link href="/">
-                <a className="ml-17 font-Manrope not-italic font-normal text-14 leading-19 text-white">@Lorem ipsum</a>
+                <a className="ml-17 font-Manrope not-italic font-normal text-14 leading-19 text-white hover:text-redpink">@Lorem ipsum</a>
                 </Link>
               </div>
               <div></div>
@@ -179,7 +178,7 @@ export default function Home() {
                 height={16}
                 />
               </div>
-              <p className="font-Manrope ml-9 not-italic font-extrabold text-16 leading-22 text-white">Lorem ipsum</p>
+              <p className="font-Manrope ml-9 not-italic font-extrabold text-16 leading-22 text-white hover:text-redpink">Lorem ipsum</p>
               <div className="ml-6">
                 <Image
                 src={questionMark}
@@ -303,7 +302,7 @@ export default function Home() {
               height={16}
               />
               </div>
-              <p className="font-Manrope mt-10 ml-9 not-italic font-extrabold text-16 leading-22 text-white">Lorem ipsum</p>
+              <p className="font-Manrope mt-10 ml-9 not-italic font-extrabold text-16 leading-22 text-white hover:text-redpink">Lorem ipsum</p>
             </div>
             <svg className="h-20 w-20 mr-15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#FFFFFF" aria-hidden="true">
               <path fillrule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" cliprule="evenodd" />

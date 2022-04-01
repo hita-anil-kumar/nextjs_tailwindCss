@@ -69,6 +69,10 @@ module.exports = {
       '2/10' : '20%',
       '1/4' : '25%',
       '1/2' : '50%',
+      '1/7' : '14%',
+      '1/14' : '7%',
+      '1/16' : '8%',
+      '3/10':'30%',
       min: 'min-content',
     },
     borderRadius: {
@@ -95,6 +99,7 @@ module.exports = {
       min: 'min-content',
       max: 'max-content',
       657: '657px',
+      800: '800px',
       '1/2': '50%',
     },
   },
