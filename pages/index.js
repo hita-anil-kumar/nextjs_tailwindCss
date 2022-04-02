@@ -17,7 +17,14 @@ import 'remixicon/fonts/remixicon.css'
 export default function Home() {
   return (
   <div className="w-full bg-gradient-to-r from-rangoon via-tuna to-rhino">
+  <div className="absolute mt-[80px] ml-[40px] w-[600px] h-[600px] bg-[#5eead4] mix-blend-multiply filter blur-xl opacity-40 animate-bounce animation-delay-2000"></div>
+  <div className="absolute mt-[700px] ml-[40px] w-[500px] h-[700px] bg-purple-300  mix-blend-multiply filter blur-xl opacity-40 animate-bounce animation-delay-2000"></div>
+  <div className="absolute mt-[100px] ml-[800px] w-[600px] h-[650px] bg-[#f9a8d4]  mix-blend-multiply filter blur-xl opacity-40 animate-bounce animation-delay-2000"></div>
+  <div className="absolute mt-[750px] ml-[800px] w-[600px] h-[600px] bg-[#67e8f9]  mix-blend-multiply filter blur-xl opacity-40 animate-bounce animation-delay-2000"></div>
+  <div className="absolute mt-[480px] ml-[600px] w-[250px] h-[350px] bg-[#fde68a]  mix-blend-multiply filter blur-xl opacity-40 animate-bounce animation-delay-2000"></div>
+  <div className="absolute mt-[900px] ml-[400px] w-[550px] h-[550px] bg-[#a5b4fc]  mix-blend-multiply filter blur-xl opacity-40 animate-bounce animation-delay-2000"></div>
   <div className='h-4 md:mt-6 bg-gradient-to-r from-rangoon via-tuna to-rhino'></div>
+ 
     <div className="mt-42 mx-20">
       <Image
       src={pictureArray}
