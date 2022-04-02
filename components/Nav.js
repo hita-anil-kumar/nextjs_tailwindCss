@@ -38,7 +38,7 @@ export default function Nav() {
         <div className='msm: h-[200px] md:h-96 bg-gradient-to-r from-rangoon via-tuna to-rhino'>
         <nav className="flex filter drop-shadow-md bg-headerColor h-96 px-4 py-4 h-20 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
-            <div className="w-3/12 flex items-center">
+            <div className="w-1/2 flex items-center">
 
             <div className="ml-40">
             <Image
