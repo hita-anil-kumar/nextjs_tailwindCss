@@ -11,15 +11,13 @@ import twitter from "../assets/twitter.png";
 import discord from "../assets/discord.png";
 import questionMark from "../assets/questionMark.png";
 import footerLogo from "../assets/footerLogo.png";
-import Nav from "../components/Nav.js";
 import 'remixicon/fonts/remixicon.css'
 
 
 export default function Home() {
   return (
   <div className="w-full bg-gradient-to-r from-rangoon via-tuna to-rhino">
-    <div className="w-full h-6 bg-gradient-to-r from-navLine1 to-navLine2 w-full">
-    </div>
+  <div className='h-4 md:mt-6 bg-gradient-to-r from-rangoon via-tuna to-rhino'></div>
     <div className="mt-42 mx-20">
       <Image
       src={pictureArray}
@@ -28,14 +26,12 @@ export default function Home() {
       height={332}
       />
     </div>
-    {/* <div className='flex justify-center -mt-1/20 ml-[16px]'>
-      <div className="w-1/2 h-1/2"> */}
     <div className='flex justify-center -mt-1/14 ml-3/500 '>
       <div className="w-1/10 h-1/10">
       <Image
       src={ellipse}
       alt="Ellipse"
-      className=" cursor-pointer hover:border-4 hover:border-blue-500 rounded-full"
+      className="cursor-pointer hover:border-4 rounded-full"
       />
     </div>
     </div>

@@ -78,6 +78,7 @@ export default function Nav() {
 
     const [open, setOpen] = useState(false)
     return (
+        <div className='msm: h-[200px] md:h-96 bg-gradient-to-r from-rangoon via-tuna to-rhino'>
         <nav className="flex filter drop-shadow-md bg-headerColor h-96 px-4 py-4 h-20 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="w-3/12 flex items-center">
@@ -112,7 +113,7 @@ export default function Nav() {
                 <div className="z-50 flex relative ml-40 w-20 h-20 flex-col justify-between items-center md:hidden" onClick={() => {
                     setOpen(!open)
                 }}>
-                    {/* hamburger button */}
+             
                     <span className={`h-1 mr-[20px] w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "rotate-45 translate-y-3.5" : ""}`} />
                     <span className={`h-1 mr-[20px] w-full bg-white rounded-lg transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"}`} />
                     <span className={`h-1 mr-[20px] w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
@@ -127,5 +128,8 @@ export default function Nav() {
                 </div>
             </div>
         </nav>
+        <div className="z-40 w-full h-6 bg-gradient-to-r from-navLine1 to-navLine2 w-full md:visible">
+        </div>
+        </div>
     )
 }
