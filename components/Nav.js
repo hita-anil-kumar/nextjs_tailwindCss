@@ -78,9 +78,9 @@ export default function Nav() {
                 
 
                 <div className=" hidden md:flex">
-                <div className="mx-10 ml-42 w-47 h-20 font-Manrope not-italic font-extrabold text-15 text-white leading-5"><Link href="/Lorem">Lorem</Link></div>
-                <div className="mx-10 ml-42 w-47 h-20 font-Manrope not-italic font-extrabold text-15 text-white leading-5"><Link href="/Lorem">Lorem</Link></div>
-                <div className="mx-10 ml-42 w-47 h-20 font-Manrope not-italic font-extrabold text-15 text-white leading-5"><Link href="/Lorem">Lorem</Link></div>
+                <div className="mx-10 ml-42 w-47 h-20 font-Manrope not-italic font-extrabold text-15 text-white leading-5 hover:text-redpink"><Link href="/Lorem">Lorem</Link></div>
+                <div className="mx-10 ml-42 w-47 h-20 font-Manrope not-italic font-extrabold text-15 text-white leading-5 hover:text-redpink"><Link href="/Lorem">Lorem</Link></div>
+                <div className="mx-10 ml-42 w-47 h-20 font-Manrope not-italic font-extrabold text-15 text-white leading-5 hover:text-redpink"><Link href="/Lorem">Lorem</Link></div>
                      
                 </div>
             </div>
