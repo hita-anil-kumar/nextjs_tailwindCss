@@ -52,7 +52,7 @@ export default function Nav() {
 
             <div className="w-9/12 flex justify-end items-center">
 
-            <div className="relative rounded-md shadow-sm  max-w-657 w-85p ml-1/10">
+            <div className="relative rounded-md shadow-sm  max-w-657 w-85p ml-1/20">
             <div className="absolute inset-y-0 left-0 pl-19 pt-8 flex items-center pointer-events-none">
               <button>
               <Image
@@ -63,7 +63,7 @@ export default function Nav() {
               />
               </button>             
             </div>
-            <input type="text" className="w-full focus:outline-none focus:border-dark-jungle focus:ring-dark-jungle block indent-37 h-36 pl-14 pr-12 sm:text-sm bg-dark-jungle shadow-navSearch rounded-10 font-Manrope not-italic font-semibold text-13 text-dawn leading-18" placeholder="Lorem ipsum">
+            <input type="text" className="w-full focus:outline-none focus:border-dark-jungle focus:ring-dark-jungle block indent-37 h-36 pl-19 pr-12 sm:text-sm bg-dark-jungle shadow-navSearch rounded-10 font-Manrope not-italic font-normal text-13 text-dawn leading-18" placeholder="Lorem ipsum">
             </input>              
           </div>
 
@@ -80,7 +80,7 @@ export default function Nav() {
                 <div className=" hidden md:flex">
                 <div className="mx-10 ml-42 w-47 h-20 font-Manrope not-italic font-extrabold text-15 text-white leading-5 hover:text-redpink"><Link href="/Lorem">Lorem</Link></div>
                 <div className="mx-10 ml-42 w-47 h-20 font-Manrope not-italic font-extrabold text-15 text-white leading-5 hover:text-redpink"><Link href="/Lorem">Lorem</Link></div>
-                <div className="mx-10 ml-42 w-47 h-20 font-Manrope not-italic font-extrabold text-15 text-white leading-5 hover:text-redpink"><Link href="/Lorem">Lorem</Link></div>
+                <div className="mx-10 ml-42 mr-42 w-47 h-20 font-Manrope not-italic font-extrabold text-15 text-white leading-5 hover:text-redpink"><Link href="/Lorem">Lorem</Link></div>
                      
                 </div>
             </div>

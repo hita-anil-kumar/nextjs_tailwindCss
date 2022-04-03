@@ -59,7 +59,6 @@ module.exports = {
       }
     },
     spacing: {
-      //...range(minSpacingPixel, 100, 1).reduce((merged, f) => ({ ...merged, [f]: `${f}px` }), {}),
       ...range(minSpacingPixel, maxSpacingPixel, 1).reduce((merged, f) => ({ ...merged, [f]: `${f}px` }), {}),
       '1/2': '50%',
       '40p': '40%',
@@ -75,6 +74,7 @@ module.exports = {
       '1/8':'16%',
       '1/16':'8%',
       '3/10':'30%',
+      '19':'19.48px',
       min: 'min-content',
     },
     borderRadius: {
