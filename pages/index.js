@@ -18,7 +18,7 @@ export default function Home() {
   return (
   <div className="w-full bg-gradient-to-r from-rangoon via-tuna to-rhino">
 
-    {/* Background pulsationg colours */}
+    {/*Background pulsationg colours */}
     <div className="absolute mt-[100px] ml-1/10 w-40p h-40p bg-[#67e8f9] mix-blend-multiply filter blur-xl opacity-60 animate-pulse animation-delay-10"></div>
     <div className="absolute mt-[100px] ml-1/2 w-40p h-40p bg-[#f9a8d4]  mix-blend-multiply filter blur-xl opacity-100 animate-pulse animation-delay-10"></div>
     <div className="absolute mt-[400px] ml-3/10 w-40p h-40p bg-[#f0abfc]  mix-blend-multiply filter blur-xl opacity-100 animate-pulse animation-delay-10"></div>
@@ -43,21 +43,21 @@ export default function Home() {
         <Image
         src={ellipse}
         alt="Ellipse"
-        className="cursor-pointer hover:border-4 rounded-full"
+        className="cursor-pointer"
         />
       </div>
     </div>
 
     {/*Text in the centre */}
     <h1 className="mt-26 font-Manrope font-extrabold text-45 leading-61 text-center text-white">Lorem ipsum</h1>    
-    <p className="mt-6 font-Manrope text-16 leading-20 text-center text-[#F3F3F3]">Created by: <span className='text-redpink'>Lorem ipsum</span></p>
+    <p className="mt-6 font-Manrope  text-16 leading-20 text-center text-[#F3F3F3]">Created by: <span className='text-redpink'>Lorem ipsum</span></p>
     <p className="mt-10 font-Manrope text-16 leading-22 text-center text-white">Sed ut percpiciatis unde omnis iste natus error sit voluptatem</p>
      
     {/**Three buttons */}
     <div className='flex justify-center mt-61 flex-wrap'>
 
       {/*Button 1 */}
-      <button className="w-184 h-50 bg-woodsmoke bg-opacity-50 rounded-4 m-10 border-2 border-transparent hover:border-redpink hover:b">
+      <button className="w-184 h-50 bg-woodsmoke bg-opacity-50 rounded-5 m-10 border-2 border-transparent hover:border-redpink hover:b">
         <div className="flex pl-34">
         <Image
         src={graph}
@@ -70,7 +70,7 @@ export default function Home() {
       </button>
 
       {/*Button 2 */}
-      <button className="w-184 h-50 bg-woodsmoke rounded-4 m-10 border-2 border-transparent hover:border-redpink">
+      <button className="w-184 h-50 bg-woodsmoke rounded-5 m-10 border-2 border-transparent hover:border-redpink">
         <div className="flex pl-34"> 
         <Image
         src={fourCircles}
@@ -83,7 +83,7 @@ export default function Home() {
       </button>
 
       {/*Button 3 */}
-      <button className="w-184 h-50 bg-woodsmoke bg-opacity-50 rounded-4 m-10 border-2 border-transparent hover:border-redpink">
+      <button className="w-184 h-50 bg-woodsmoke bg-opacity-50 rounded-5 m-10 border-2 border-transparent hover:border-redpink">
         <div className="flex pl-34">
         <Image
         src={house}
@@ -100,7 +100,7 @@ export default function Home() {
     <div className="flex flex-wrap justify-center mt-73">
 
     {/*Huge text with social media links on the left */}
-      <div className="rounded-5 m-20 sm:w-40p max-msm:w-85p text-left bg-woodsmoke bg-opacity-50 h-min">
+      <div className="rounded-4 m-20 sm:w-40p max-msm:w-85p text-left bg-woodsmoke bg-opacity-50 h-min">
         <div className='my-20'>
 
             {/*Dropdown button and links on the top of the textbox */}
@@ -150,7 +150,7 @@ export default function Home() {
                 <button>
                 <Image
                 src={discord}
-                alt="Disocrd"
+                alt="Discord"
                 width={23.4}
                 height={17.18}
                 />
@@ -196,8 +196,8 @@ export default function Home() {
       </div>
       
       {/*Huge box with many buttons on the right */}
-      <div className="m-20 max-msm:w-85p sm:w-40p max-msm:w-85p max-sm:w-40p flex flex-col">        
-        <div className="text-left rounded-5 bg-woodsmoke bg-opacity-50">  
+      <div className="ml-8 m-20 max-msm:w-85p sm:w-40p max-msm:w-85p max-sm:w-40p flex flex-col">        
+        <div className="text-left rounded-4 bg-woodsmoke bg-opacity-50">  
         
         {/*Dropdown button and links on the top of the box */}
           <div className='mt-20'>
@@ -231,7 +231,7 @@ export default function Home() {
           <div className='flex grid grid-cols-2 sm:grid-cols-3 m-20 h-320 overflow-auto'>
 
             {/*Button 1 */}
-            <button className="flex items-center  m-5 h-100 mt-0 mr-0 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
+            <button className="flex items-center m-5 h-99 mt-0 mr-0 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
             <div className="w-113 h-69 ml-26 bg-woodsmoke justify-center">
             <p className="font-Manrope not-italic font-normal text-13 leading-23 text-oslogrey text-center">Accesories & Ears</p>
             <p className="font-Manrope not-italic font-extrabold text-16 leading-22 text-white text-center">Lorem ipsum</p>
@@ -240,7 +240,7 @@ export default function Home() {
             </button>  
 
             {/*Button 2 */}
-            <button className="flex items-center m-5 h-100 mt-0 mr-0 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
+            <button className="flex items-center m-5 h-99 mt-0 mr-0 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
             <div className="w-113 h-69 ml-26 bg-woodsmoke justify-center">
             <p className="font-Manrope not-italic font-normal text-13 leading-23 text-oslogrey text-center">Arms</p>
             <p className="font-Manrope not-italic font-extrabold text-16 leading-22 text-white text-center">Lorem ipsum</p>
@@ -249,7 +249,7 @@ export default function Home() {
             </button>  
             
             {/*Button 3 */}
-            <button className="flex items-center  m-5 h-100 mt-0 mr-0 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
+            <button className="flex items-center m-5 h-99 mt-0 mr-0 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
             <div className="w-113 h-69 ml-26 bg-woodsmoke justify-center">
             <p className="font-Manrope not-italic font-normal text-13 leading-23 text-oslogrey text-center">Background</p>
             <p className="font-Manrope not-italic font-extrabold text-16 leading-22 text-white text-center">Lorem ipsum</p>
@@ -258,7 +258,7 @@ export default function Home() {
             </button>  
             
             {/*Button 4 */}
-            <button className="flex items-center m-5 h-100 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
+            <button className="flex items-center m-5 h-99 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
             <div className="w-113 h-69 ml-26 bg-woodsmoke justify-center">
             <p className="font-Manrope not-italic font-normal text-13 leading-23 text-oslogrey text-center">Eye</p>
             <p className="font-Manrope not-italic font-extrabold text-16 leading-22 text-white text-center">Lorem ipsum</p>
@@ -267,7 +267,7 @@ export default function Home() {
             </button>  
            
            {/*Button 5 */}
-            <button className="flex items-center  m-5 h-100 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
+            <button className="flex items-center  m-5 h-99 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
             <div className="w-113 h-69 ml-26 bg-woodsmoke justify-center">
             <p className="font-Manrope not-italic font-normal text-13 leading-23 text-oslogrey text-center">Glasses</p>
             <p className="font-Manrope not-italic font-extrabold text-16 leading-22 text-white text-center">Lorem ipsum</p>
@@ -276,7 +276,7 @@ export default function Home() {
             </button>  
 
             {/*Button 6 */}
-            <button className="flex items-center m-5 h-100 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink item-center">
+            <button className="flex items-center m-5 h-99 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink item-center">
             <div className="w-113 h-69 ml-26 bg-woodsmoke justify-center">
             <p className="font-Manrope not-italic font-normal text-13 leading-23 text-oslogrey text-center">Hair & Hats</p>
             <p className="font-Manrope not-italic font-extrabold text-16 leading-22 text-white text-center">Lorem ipsum</p>
@@ -285,7 +285,7 @@ export default function Home() {
             </button> 
 
             {/*Button 7 */}
-            <button className="flex items-center m-5 h-100 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
+            <button className="flex items-center m-5 h-99 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
             <div className="w-113 h-69 ml-26 bg-woodsmoke justify-center">
             <p className="font-Manrope not-italic font-normal text-13 leading-23 text-oslogrey text-center">Head</p>
             <p className="font-Manrope not-italic font-extrabold text-16 leading-22 text-white text-center">Lorem ipsum</p>
@@ -294,7 +294,7 @@ export default function Home() {
             </button>  
 
             {/*Button 8 */}
-            <button className="flex items-center m-5 h-100 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
+            <button className="flex items-center m-5 h-99 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
             <div className="w-113 h-69 ml-26 bg-woodsmoke justify-center">
             <p className="font-Manrope not-italic font-normal text-13 leading-23 text-oslogrey text-center">Legs & Clothes</p>
             <p className="font-Manrope not-italic font-extrabold text-16 leading-22 text-white text-center">Lorem ipsum</p>
@@ -303,7 +303,7 @@ export default function Home() {
             </button>  
 
             {/*Button 9 */}
-            <button className="flex items-center m-5 h-100 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
+            <button className="flex items-center m-5 h-99 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
             <div className="w-113 h-69 ml-26 bg-woodsmoke justify-center">
             <p className="font-Manrope not-italic font-normal text-13 leading-23 text-oslogrey text-center">Mouth</p>
             <p className="font-Manrope not-italic font-extrabold text-16 leading-22 text-white text-center">Lorem ipsum</p>
@@ -312,7 +312,7 @@ export default function Home() {
             </button>
             
             {/*Button 10 */}
-            <button className="flex items-center m-5 h-100 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
+            <button className="flex items-center m-5 h-99 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
             <div className="w-113 h-69 ml-26 bg-woodsmoke justify-center">
             <p className="font-Manrope not-italic font-normal text-13 leading-23 text-oslogrey text-center">Mouth</p>
             <p className="font-Manrope not-italic font-extrabold text-16 leading-22 text-white text-center">Lorem ipsum</p>
@@ -321,7 +321,7 @@ export default function Home() {
             </button>
 
             {/*Button 11 */}
-            <button className="flex items-center m-5 h-100 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
+            <button className="flex items-center m-5 h-99 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
             <div className="w-113 h-69 ml-26 bg-woodsmoke justify-center">
             <p className="font-Manrope not-italic font-normal text-13 leading-23 text-oslogrey text-center">Mouth</p>
             <p className="font-Manrope not-italic font-extrabold text-16 leading-22 text-white text-center">Lorem ipsum</p>
@@ -330,7 +330,7 @@ export default function Home() {
             </button>
 
             {/*Button 12 */}
-            <button className="flex items-center m-5 h-100 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
+            <button className="flex items-center m-5 h-99 mt-0 mr-0 mt-5 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
             <div className="w-113 h-69 ml-26 bg-woodsmoke justify-center">
             <p className="font-Manrope not-italic font-normal text-13 leading-23 text-oslogrey text-center">Mouth</p>
             <p className="font-Manrope not-italic font-extrabold text-16 leading-22 text-white text-center">Lorem ipsum</p>
@@ -363,7 +363,7 @@ export default function Home() {
 
     {/*Footer */}
     </div>
-    <div className='flex justify-center rounded-5 bg-headerColor mt-20 h-205 items-center'>
+    <div className='flex justify-center rounded-4 bg-headerColor mt-20 h-205 items-center'>
       <div className="ml-40">
         <Image
         src={footerLogo}
