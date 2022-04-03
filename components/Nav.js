@@ -36,7 +36,7 @@ export default function Nav() {
         <nav className="flex bg-headerColor h-96 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
 
-            {/* main logo */}
+            {/*main logo */}
             <div className="w-1/2">
             <div className="ml-40">
             <Image
@@ -72,7 +72,7 @@ export default function Nav() {
                     <span className={`h-1 mr-[20px] w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
                 </div>
                 
-                {/* Links */}
+                {/*Links */}
                 <div className=" hidden md:flex">
                     <div className="mx-10 ml-41 w-47 h-20 font-Manrope not-italic font-extrabold text-15 text-white leading-5 hover:text-redpink"><Link href="/Lorem">Lorem</Link></div>
                     <div className="mx-10 ml-41 w-47 h-20 font-Manrope not-italic font-extrabold text-15 text-white leading-5 hover:text-redpink"><Link href="/Lorem">Lorem</Link></div>
