@@ -62,6 +62,7 @@ module.exports = {
     spacing: {
       ...range(minSpacingPixel, maxSpacingPixel, 1).reduce((merged, f) => ({ ...merged, [f]: `${f}px` }), {}),
       '1/2': '50%',
+      '22p' : '22%',
       '35p' : '35%',
       '40p': '40%',
       '85p' : '85%',
