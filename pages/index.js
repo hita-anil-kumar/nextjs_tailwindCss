@@ -341,8 +341,8 @@ export default function Home() {
         </div>
 
         {/*The dropdown at the bottom right */}
-        <div className='text-left rounded-5 bg-woodsmoke bg-opacity-50 mt-20'>
-          <button className="w-full rounded-4 bg-woodsmoke bg-opacity-0 inline-flex justify-center px-4 py-2 flex justify-between items-center">
+        <div className='text-left rounded-5 bg-woodsmoke bg-opacity-50 mt-20 h-[76px]'>
+          <button className="w-full h-full rounded-4 bg-woodsmoke bg-opacity-0 inline-flex  px-4 py-2 flex justify-between items-center">
             <div className='flex'>
               <div className="my-10 ml-18">
               <Image
