@@ -21,7 +21,7 @@ export default function Home() {
     {/*Background pulsationg colours */}
     <div className="absolute mt-22p w-1/2 h-40p bg-[#67e8f9] mix-blend-multiply filter blur-xl opacity-100 animate-pulse animation-delay-20000"></div>
     <div className="absolute mt-22p ml-1/2 w-1/2 h-40p bg-[#f9a8d4]  mix-blend-multiply filter blur-xl opacity-100 animate-pulse animation-delay-20000"></div>
-   <div className='h-4 md:mt-6 bg-gradient-to-r from-rangoon via-tuna to-rhino'></div>
+   <div className='h-4 lg:mt-6 bg-gradient-to-r from-rangoon via-tuna to-rhino'></div>
     
     {/*Main long picture*/}
     <div className="mt-42 mx-20">

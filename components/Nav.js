@@ -32,7 +32,7 @@ export default function Nav() {
 
     const [open, setOpen] = useState(false)
     return (
-    <div className='msm: h-[200px] md:h-96 bg-gradient-to-r from-rangoon via-tuna to-rhino'>
+    <div className='msm: h-[200px] lg:h-96 bg-gradient-to-r from-rangoon via-tuna to-rhino'>
         <nav className="flex bg-headerColor h-96 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
 
@@ -66,21 +66,21 @@ export default function Nav() {
                  </div>
                 
                 {/*hamburger menu */}
-                <div className="z-50 flex relative ml-40 w-20 h-20 flex-col justify-between items-center md:hidden" onClick={() => {setOpen(!open) }}>
+                <div className="z-50 flex relative ml-40 w-20 h-20 flex-col justify-between items-center lg:hidden" onClick={() => {setOpen(!open) }}>
                     <span className={`h-1 mr-[20px] w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "rotate-45 translate-y-3.5" : ""}`} />
                     <span className={`h-1 mr-[20px] w-full bg-white rounded-lg transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"}`} />
                     <span className={`h-1 mr-[20px] w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
                 </div>
                 
                 {/*Links */}
-                <div className=" hidden md:flex">
+                <div className=" hidden lg:flex">
                     <div className="mx-10 ml-41 w-47 h-20 font-Manrope not-italic font-extrabold text-15 text-white leading-5 hover:text-redpink"><Link href="/Lorem">Lorem</Link></div>
                     <div className="mx-10 ml-41 w-47 h-20 font-Manrope not-italic font-extrabold text-15 text-white leading-5 hover:text-redpink"><Link href="/Lorem">Lorem</Link></div>
                     <div className="mx-10 ml-41 mr-42 w-47 h-20 font-Manrope not-italic font-extrabold text-15 text-white leading-5 hover:text-redpink"><Link href="/Lorem">Lorem</Link></div>                     
                 </div>
             </div>
         </nav>
-            <div className="z-40 w-full h-6 bg-gradient-to-r from-navLine1 to-navLine2 w-full md:visible">
+            <div className="z-40 w-full h-6 bg-gradient-to-r from-navLine1 to-navLine2 w-full lg:visible">
             </div>
     </div>
     )
