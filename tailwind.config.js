@@ -18,6 +18,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        'mmsm': '200px',
         'msm': '320px',
         'mmd': '375px',
         'mlg': '425px',
@@ -61,6 +62,7 @@ module.exports = {
     spacing: {
       ...range(minSpacingPixel, maxSpacingPixel, 1).reduce((merged, f) => ({ ...merged, [f]: `${f}px` }), {}),
       '1/2': '50%',
+      '35p' : '35%',
       '40p': '40%',
       '85p' : '85%',
       '1/10' : '10%',
@@ -88,6 +90,7 @@ module.exports = {
       '3xl': '1.5rem',
       full: '9999px',
       '4':'4px',
+      '6':'6px',
       ...range(minSpacingPixel, 50, 5).reduce((merged, f) => ({ ...merged, [f]: `${f}px` }), {}),
     },
     maxWidth: {
@@ -105,6 +108,8 @@ module.exports = {
       800: '800px',
       '1/2': '50%',
       '41':'41px',
+      '99': '99px',
+      '69': '69px',
     },
   },
   plugins: [],
