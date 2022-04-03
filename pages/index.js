@@ -17,14 +17,14 @@ import 'remixicon/fonts/remixicon.css'
 export default function Home() {
   return (
   <div className="w-full bg-gradient-to-r from-rangoon via-tuna to-rhino">
-
+ 
     {/*Background pulsationg colours */}
-    <div className="absolute mt-[100px] ml-1/10 w-40p h-40p bg-[#67e8f9] mix-blend-multiply filter blur-xl opacity-60 animate-pulse animation-delay-10"></div>
-    <div className="absolute mt-[100px] ml-1/2 w-40p h-40p bg-[#f9a8d4]  mix-blend-multiply filter blur-xl opacity-100 animate-pulse animation-delay-10"></div>
-    <div className="absolute mt-[400px] ml-3/10 w-40p h-40p bg-[#f0abfc]  mix-blend-multiply filter blur-xl opacity-100 animate-pulse animation-delay-10"></div>
-    <div className="absolute mt-[700px] ml-1/10 w-40p h-40p bg-[#d8b4fe]  mix-blend-multiply filter blur-xl opacity-100 animate-pulse animation-delay-10"></div>
-    <div className="absolute mt-[750px] ml-1/2 w-40p h-40p bg-[#67e8f9]  mix-blend-multiply filter blur-xl opacity-100 animate-pulse animation-delay-10"></div>
-    <div className="absolute mt-[890px] ml-3/10 w-40p h-85p bg-[#a5b4fc]  mix-blend-multiply filter blur-xl opacity-100 animate-pulse animation-delay-10"></div>
+    <div className="absolute mt-[130px] ml-1/10 w-40p h-40p bg-[#67e8f9] mix-blend-multiply filter blur-xl opacity-60 animate-pulse animation-delay-20000"></div>
+    <div className="absolute mt-[100px] ml-1/2 w-40p h-40p bg-[#f9a8d4]  mix-blend-multiply filter blur-xl opacity-100 animate-pulse animation-delay-20000"></div>
+    <div className="absolute mt-[400px] ml-3/10 w-40p h-40p bg-[#f0abfc]  mix-blend-multiply filter blur-xl opacity-100 animate-pulse animation-delay-20000"></div>
+    <div className="absolute mt-[700px] ml-1/10 w-40p h-40p bg-[#d8b4fe]  mix-blend-multiply filter blur-xl opacity-100 animate-pulse animation-delay-20000"></div>
+    <div className="absolute mt-[750px] ml-1/2 w-40p h-40p bg-[#67e8f9]  mix-blend-multiply filter blur-xl opacity-100 animate-pulse animation-delay-20000"></div>
+  <div className="absolute mt-[1000px] ml-3/10 w-40p h-40p bg-[#f9a8d4]  mix-blend-multiply filter blur-xl opacity-60 animate-pulse animation-delay-20000"></div>
     <div className='h-4 md:mt-6 bg-gradient-to-r from-rangoon via-tuna to-rhino'></div>
     
     {/*Main long picture*/}
