@@ -225,7 +225,7 @@ export default function Home() {
           </div>
 
           {/*The buttons inside the box */}
-          <div className='flex grid grid-cols-2 sm:grid-cols-3 m-20 h-320 overflow-auto'>
+          <div className='flex grid grid-cols-2 sm:grid-cols-3 m-20 h-320 '>
 
             {/*Button 1 */}
             <button className="flex items-center m-5 h-99 mt-0 mr-0 rounded-4 bg-woodsmoke inline-flex border-2 border-transparent hover:border-redpink">
