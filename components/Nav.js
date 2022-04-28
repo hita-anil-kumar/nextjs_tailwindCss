@@ -32,7 +32,7 @@ export default function Nav() {
 
     const [open, setOpen] = useState(false)
     return (
-    <div className='msm: h-[200px] lg:h-96 bg-gradient-to-r from-rangoon via-tuna to-rhino'>
+    <div className='msm: h-[200px] lg:h-96 bg-gradient-to-r from-rangoon via-tuna to-rhino w-full'>
         <nav className="flex bg-headerColor h-96 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
 
